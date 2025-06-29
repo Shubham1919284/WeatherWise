@@ -1,6 +1,6 @@
-# 🌦️ Voice-Enabled Weather Chatbot
+# 🌦️ Voice-Enabled Weather Model
 
-A Python-based weather chatbot that provides real-time 3-day forecasts using **WeatherAPI**. Supports both **voice input** (via SpeechRecognition) and **text input**, returning detailed weather data including temperature, AQI, sunrise/sunset, rain/snow alerts, and more — all with intuitive emoji-based output.
+A Python-based weather Model that provides real-time 3-day forecasts using **WeatherAPI**. Supports both **voice input** (via SpeechRecognition) and **text input**, returning detailed weather data including temperature, AQI, sunrise/sunset, rain/snow alerts, and more — all with intuitive emoji-based output.
 
 ---
 
@@ -46,12 +46,12 @@ python main.py
 ![Your Screenshot]([image-link)](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133630.png)
 ![Your Screenshot]([image-link](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133724.png)
 
-📝 Notes
+📝 Important Notes :
 -If microphone access fails, the chatbot will fallback to text input.
 -You can speak short, clear city names like “Delhi”, “Mumbai”, “Tokyo”, etc.
 -Internet connection is required (API-based project)
 
-👨‍💻 Author
+👨‍💻 Author :
 Shubham Kumar Jha
 BTech CSE (Data Science), Gulzar Group of Institutes (PTU)
 📧 sk1919284@gmail.com
