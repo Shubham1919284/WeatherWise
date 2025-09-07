@@ -1,81 +1,107 @@
-🌦️ Voice-Enabled Weather Model
+# 🌦️ Voice-Enabled Weather Model
 
-A Python-based weather model that provides real-time 3-day forecasts using WeatherAPI. It supports both voice input (via SpeechRecognition) and text input, returning detailed weather data including temperature, AQI, sunrise/sunset, rain/snow alerts, and more—all with intuitive emoji-based output.
+A Python-based **AI-powered weather assistant** that delivers **real-time 3-day forecasts** using the **WeatherAPI**.  
+The app supports both **voice input 🎤** (via SpeechRecognition) and **text input ⌨️**, providing a friendly, emoji-rich experience with detailed weather insights such as temperature, AQI, sunrise/sunset times, and rain/snow alerts.  
 
-🚀 Features
-🎤 Voice or text input for city names
+---
 
-🌐 Fetches real-time weather data from WeatherAPI
+## ✨ Key Features
+- 🎤 **Voice or text input** → Ask for a city name by speaking or typing  
+- 🌐 **Real-time 3-day forecasts** powered by [WeatherAPI](https://www.weatherapi.com/)  
+- 🌞 **Comprehensive details** → Sunrise/sunset, “feels like” temp, humidity, wind  
+- 🌧️ **Rain & snow alerts** → Stay informed about upcoming conditions  
+- 📊 **Air Quality Index (AQI)** classification → Good, Moderate, Poor, etc.  
+- 🧠 **Session history tracking** → Keeps a short memory of searches  
+- 😎 **Clean CLI interface** → Emoji-enhanced summaries for quick readability  
 
-🌞 Includes comprehensive data: sunrise/sunset times, "feels like" temperature, humidity, and wind speed
+---
 
-🌧️ Detects and alerts on rain/snow forecasts
+## 🛠️ Tech Stack
+- **Python** 🐍  
+- **SpeechRecognition** 🎙️  
+- **pyttsx3** (Text-to-Speech, optional) 🔊  
+- **requests** (API handling) 🌐  
+- **WeatherAPI** ☁️  
+- **JSON & Regex** (data parsing and filtering)  
 
-📊 Provides AQI (Air Quality Index) classification (Good, Moderate, Poor, etc.)
+---
 
-🧠 Tracks search history within a session
+## 📂 Project Structure
+- `main.py` → Main chatbot script  
+- `requirements.txt` → Required dependencies  
+- `README.md` → Documentation (this file)  
 
-😊 Features a clean command-line interface with emoji-enhanced summaries
+---
 
-🔧 Technologies Used
-Python: Core programming language
+## 🚀 Getting Started
 
-SpeechRecognition: For handling voice input
+Follow these steps to set up and run the project:  
 
-pyttsx3: For text-to-speech functionality (optional)
-
-requests: To interact with the WeatherAPI
-
-WeatherAPI: The source for all weather data
-
-JSON & Regex: For data handling and filtering
-
-## 📥 How to Run
-
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Shubham1919284/Voice-Weather-Chatbot.git
 cd Voice-Weather-Chatbot
-```
+````
 
-2. Install required packages
+### 2️⃣ Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Add your WeatherAPI key
-```bash
+### 3️⃣ Add your WeatherAPI key
 
-Open main.py and replace the placeholder with your actual API key:
+Open `main.py` and replace the placeholder:
+
+```python
 API_KEY = "your_api_key_here"
 ```
 
-4. Run the chatbot
+### 4️⃣ Run the chatbot
+
 ```bash
 python main.py
 ```
 
-📝 Important Notes
-You may need to install system-level dependencies for PyAudio to work correctly.
+---
 
-Ensure your microphone is properly configured for voice input.
+## 🌟 Example Output
 
-The pyttsx3 library is for text-to-speech. If you don't want this feature, you can remove it from your requirements.txt and the main.py file.
+📍 **Input:** *“Delhi”*
 
-📃 requirements.txt
-The dependencies for this project can be installed from the following list:
-requests
-SpeechRecognition
-pyaudio
-pyttsx3
-
-----
-## 🙌 Let’s Connect  
-
-If you find this project interesting, feel free to ⭐ the repo and share your thoughts!  
-
-- 🔗 [LinkedIn – Shubham Kumar Jha](https://www.linkedin.com/in/shubham-kumar-jha-1a2b3c)  
-- 💻 [GitHub – Shubham1919284](https://github.com/Shubham1919284)  
+🌡️ **Temperature:** 32°C (feels like 35°C)
+💧 **Humidity:** 72%
+💨 **Wind:** 14 km/h
+☀️ **Sunrise/Sunset:** 05:52 / 18:49
+🌧️ **Alert:** Light rain expected tomorrow
+📊 **AQI:** Moderate 😷
 
 ---
+
+## 📸 Screenshots
+
+![Screenshot 1](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133630.png)
+![Screenshot 2](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133724.png)
+
+---
+
+## 📝 Notes
+
+* 🎙️ If microphone access fails, the chatbot will **fall back to text input**
+* 🌍 Requires stable internet connection (real-time data fetched from WeatherAPI)
+* 🔑 Get a free API key at [WeatherAPI.com](https://www.weatherapi.com/)
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Kumar Jha**
+BTech CSE (Data Science) | Gulzar Group of Institutes (PTU)
+
+📧 Email: **[sk1919284@gmail.com](mailto:sk1919284@gmail.com)**
+🔗 LinkedIn: [linkedin.com/in/shubham-kumar-jha-1a2b3c](https://www.linkedin.com/in/shubham-kumar-jha-1a2b3c)
+🔗 GitHub: [github.com/Shubham1919284](https://github.com/Shubham1919284)
+
+```
+
 
