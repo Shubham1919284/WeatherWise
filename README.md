@@ -69,8 +69,14 @@ SpeechRecognition
 pyaudio
 pyttsx3
 
+----
+### 👨‍💻 Author
 
-requests
-SpeechRecognition
-pyaudio
-pyttsx3
+**Shubham Kumar Jha**
+BTech CSE (Data Science) | Gulzar Group of Institutes (PTU)
+
+  - 📧 **Email:** `sk1919284@gmail.com`
+  - 🔗 **LinkedIn:** `linkedin.com/in/shubham-kumar-jha-1a2b3c`
+  - 🔗 **GitHub:** `github.com/Shubham1919284`
+
+
