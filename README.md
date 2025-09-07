@@ -1,62 +1,76 @@
-# 🌦️ Voice-Enabled Weather Model
+🌦️ Voice-Enabled Weather Model
 
-A Python-based weather Model that provides real-time 3-day forecasts using **WeatherAPI**. Supports both **voice input** (via SpeechRecognition) and **text input**, returning detailed weather data including temperature, AQI, sunrise/sunset, rain/snow alerts, and more — all with intuitive emoji-based output.
+A Python-based weather model that provides real-time 3-day forecasts using WeatherAPI. It supports both voice input (via SpeechRecognition) and text input, returning detailed weather data including temperature, AQI, sunrise/sunset, rain/snow alerts, and more—all with intuitive emoji-based output.
 
----
+🚀 Features
+🎤 Voice or text input for city names
 
-## 🚀 Features
+🌐 Fetches real-time weather data from WeatherAPI
 
-- 🎤 Accepts **voice or text** city input
-- 🌐 Real-time weather data from **WeatherAPI**
-- 🌞 Includes sunrise/sunset times, feels like temp, humidity, wind speed
-- 🌧️ Detects and alerts about **rain/snow** forecasts
-- 📊 AQI condition-based classification (Good, Moderate, Poor, etc.)
-- 🧠 **Search history tracking** within a session
-- 😊 Clean command-line interface with emoji-enhanced summaries
+🌞 Includes comprehensive data: sunrise/sunset times, "feels like" temperature, humidity, and wind speed
 
----
+🌧️ Detects and alerts on rain/snow forecasts
 
-## 🔧 Technologies Used
+📊 Provides AQI (Air Quality Index) classification (Good, Moderate, Poor, etc.)
 
-- Python
-- SpeechRecognition
-- pyttsx3 (Text-to-Speech, optional)
-- requests (API handling)
-- WeatherAPI (https://www.weatherapi.com/)
-- JSON & Regex (data handling & filtering)
+🧠 Tracks search history within a session
 
----
+😊 Features a clean command-line interface with emoji-enhanced summaries
+
+🔧 Technologies Used
+Python: Core programming language
+
+SpeechRecognition: For handling voice input
+
+pyttsx3: For text-to-speech functionality (optional)
+
+requests: To interact with the WeatherAPI
+
+WeatherAPI: The source for all weather data
+
+JSON & Regex: For data handling and filtering
 
 ## 📥 How to Run
 
-# 1. Clone the repository
+### 1. Clone the repository
+```bash
 git clone https://github.com/Shubham1919284/Voice-Weather-Chatbot.git
 cd Voice-Weather-Chatbot
+```
 
-# 2. Install required packages
-pip install requests SpeechRecognition pyaudio
+2. Install required packages
+```bash
+pip install -r requirements.txt
+```
 
-# 3. Add your WeatherAPI key
-# (Open main.py and replace 'your_api_key_here' with your actual key)
+3. Add your WeatherAPI key
+```bash
 
-# 4. Run the chatbot
+Open main.py and replace the placeholder with your actual API key:
+API_KEY = "your_api_key_here"
+```
+
+4. Run the chatbot
+```bash
 python main.py
+```
 
-### 🌦️ Forecast Output Example  
-![Your Screenshot]([image-link)](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133630.png)
-![Your Screenshot]([image-link](https://github.com/Shubham1919284/WeatherWise/blob/32d2bed1529945a7c0b199e38ccc68f26e4aa08d/Screenshot%202025-06-29%20133724.png)
+📝 Important Notes
+You may need to install system-level dependencies for PyAudio to work correctly.
 
-📝 Important Notes :
--If microphone access fails, the chatbot will fallback to text input.
--You can speak short, clear city names like “Delhi”, “Mumbai”, “Tokyo”, etc.
--Internet connection is required (API-based project)
+Ensure your microphone is properly configured for voice input.
 
-👨‍💻 Author :
-Shubham Kumar Jha
-BTech CSE (Data Science), Gulzar Group of Institutes (PTU)
-📧 sk1919284@gmail.com
-🔗 LinkedIn
-💻 GitHub
+The pyttsx3 library is for text-to-speech. If you don't want this feature, you can remove it from your requirements.txt and the main.py file.
 
-TAGS--
-Python SpeechRecognition WeatherAPI Voice Assistant Weather Chatbot Mini Project CLI Bot Data Science Student
+📃 requirements.txt
+The dependencies for this project can be installed from the following list:
+requests
+SpeechRecognition
+pyaudio
+pyttsx3
+
+
+requests
+SpeechRecognition
+pyaudio
+pyttsx3
